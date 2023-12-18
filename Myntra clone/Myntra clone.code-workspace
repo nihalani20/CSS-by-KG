@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Myntra clone",
+			"path": "."
+		},
+		{
+			"name": "CSS by KG",
+			"path": "../CSS by KG"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Myntra clone"
+	}
+}

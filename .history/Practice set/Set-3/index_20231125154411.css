@@ -1,0 +1,15 @@
+/* here we try applying descendant  */
+#nav h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua
+}
+
+#outer {
+    font-size: 25px;
+}
+
+#inner {
+    font-size: 10px;
+}

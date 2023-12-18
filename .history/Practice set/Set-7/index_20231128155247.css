@@ -1,0 +1,32 @@
+ 
+ /* we can also set progress bar to 90% width below because its parent is the whole page that 90% of the parents width */
+ 
+ #progress_barcontainer {
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 15px;
+     width: 490px;
+     position: relative;
+     left:5%
+ }
+
+
+
+ #progress_bar {
+     background-color: blue;
+     height: 20px;
+     width: 100px;
+     border-radius: 20px;
+     animation: animate-progress 2s timing-function delay iteration-count direction fill-mode;
+     
+ }
+
+@keyframes animate-progress { 
+    from {
+        width: 0%;
+    }
+    to{
+        width:90%
+    }
+}
+

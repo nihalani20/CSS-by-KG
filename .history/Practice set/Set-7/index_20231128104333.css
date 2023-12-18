@@ -1,0 +1,22 @@
+ #progress_barcontainer {
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 15px;
+     width: 490px;
+ }
+
+
+ #progress_bar {
+     background-color: blue;
+     height: 20px;
+     width: 0px;
+     border-radius: 20px;
+ }
+
+
+ @keyframes{ 
+   from{left:0px}
+   to{
+    right:
+   }
+ }

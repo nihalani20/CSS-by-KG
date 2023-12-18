@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set-4</title>
+<style>
+    *{
+        margin: 0 ; padding  0;]
+    }
+    /* from above (home about products contact) we get space  */
+    nav{
+        padding: 5px;
+    }
+
+nav a {
+   text-decoration: none;
+   margin-left: 55px;
+   padding:5px;
+
+
+}
+
+header{
+    background-color:aqua;
+    height: 30px;
+}
+
+#first{
+    height: 70px;
+    width: 90px;
+    background-color:green;
+    border-radius:50%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color:rebeccapurple;
+    margin-top: 2px;
+}
+/* just to show z-index we can apply on box2 */
+#box2{
+    z-index: 2;
+    position: absolute;
+    left: 13px;
+}
+#container
+{
+    border:solid 3px ;
+    padding:5px;
+}
+#rank{
+    
+    background-color:palevioletred;
+    height: 60px;
+    width: 60px;
+    /* /* margin-left: 200px; */
+    /* instead use right */
+    right: 10px;
+    margin-top: 20px;
+    position:fixed;
+
+
+}
+
+#index1{
+    background-color:plum;
+    margin-top: 90px;
+    width:60px;
+    height:60px;
+    
+   
+
+}
+#index2
+{
+    background-color:greenyellow;
+    width:60px;
+    height:60px;
+    z-index: 2;
+    position: absolute;
+    left: 3px;
+    
+    
+    
+}
+
+
+#footer{
+   
+    font-family: 'Times New Roman', Times, monospace;
+    /* margin-top: 200px; */
+    /* instead */
+    position: fixed;
+    bottom:0px;
+    background-color:red;
+    height:56px;
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+<main>
+<div id="first"></div>
+
+<div id="container">
+<div  id = "box1" class="box">box1</div>
+<div  id = "box2"class="box">box2</div>
+<div  id = "box3"class="box">box3</div>
+</div>
+
+<div id="rank">box4</div>
+    
+<div id="index1">z-index1
+</div>
+<div id="index2">z-index2</div>
+
+
+<footer id="footer">This is the footer Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint adipisci quod dolor cumque, fuga id debitis, ipsam perspiciatis voluptatum architecto, distinctio qui inventore nihil in quam fugiat laborum. Voluptatum perspiciatis labore voluptate accusantium itaque unde, quaerat recusandae, veniam alias reiciendis accusamus maxime beatae pariatur? Eaque perspiciatis deleniti animi corporis?.</footer>
+</main>
+
+
+
+</body>
+</html>

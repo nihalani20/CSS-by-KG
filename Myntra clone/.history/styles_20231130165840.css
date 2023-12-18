@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo_container{
+    width: 140px;
+    height: 140px;
+    }
+
+header nav a{
+    text-decoration: none ;
+    text-transform: uppercase;
+}

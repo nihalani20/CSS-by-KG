@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+        font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
+
+            box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color:peachpuff;
+}
+.myntra_logoimg{
+   height: 45px;
+   display: flex;
+   align-items:center
+    } 
+
+.action_container{
+    margin-right: 4%;
+}
+
+    
+ .nav_bar{
+   border-bottom: #ffffff;
+   min-width: 500px;  
+ }   
+
+header nav a{
+    text-decoration: none ;
+    text-transform: uppercase;
+     padding: 0 17px 28px;
+    font-size: 14px;
+    letter-spacing: .3px;
+     color: #282c3f;
+     border-bottom: none;
+     font-weight: 700;
+     
+}
+
+header nav a sup{color:red;}
+
+.search_bar{
+    height:40;
+    min-width: 400px;
+    display: flex;
+    align-items:center;
+}
+/* as icon size 40 px a/c to that we give 20 px height and padding 10px */
+/* also becoz off border box icon moves downward so we give content box so it takes space according to that  */
+.searchbar_icon{
+    height: 20px;
+    padding: 10px;
+    box-sizing:content-box;
+    color:#282c3f;
+
+
+    
+}
+.search_input{
+
+    font-size: 14px;
+        color: #696e79;
+        background-color:#f5f5f6;
+        flex-grow: 1;
+        height: 40px;
+        border
+
+}

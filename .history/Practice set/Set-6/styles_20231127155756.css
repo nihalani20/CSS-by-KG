@@ -1,0 +1,23 @@
+*{
+margin: 0;
+   padding: 0;
+}
+nav a
+{
+   text-decoration: none;
+   color:aliceblue;
+   
+}
+
+#container{
+   background-color:grey;
+   height: 40px;
+   border:solid;
+   display: ;
+}
+
+
+
+#image{
+   background-image:url(images/ai-generated-8188166_1280.png)
+}

@@ -1,0 +1,26 @@
+ 
+ /* we can also set progress bar to 90% width be */
+ 
+ #progress_barcontainer {
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 15px;
+     width: 490px;
+ }
+
+
+ #progress_bar {
+     background-color: blue;
+     height: 20px;
+     width: 0px;
+     border-radius: 20px;
+     
+ }
+
+ #progress_bar:hover{
+      transition: all;
+      transition-duration: 1s;
+      transition-timing-function: ease-in;
+      transition-delay: 0s;
+ }
+

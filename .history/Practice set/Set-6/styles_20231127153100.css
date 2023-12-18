@@ -1,0 +1,15 @@
+nav a
+{
+   text-decoration: none;
+   color:aliceblue;
+   display: flex;
+   flex-direction: row;
+
+   
+}
+
+#container{
+   background-color:grey;
+   height: 40px;
+   border:solid
+}

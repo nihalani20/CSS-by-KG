@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.logo_container img{
+   height: 45px;
+    }
+
+header nav a{
+    text-decoration: none ;
+    text-transform: uppercase;
+    display: ;
+
+}

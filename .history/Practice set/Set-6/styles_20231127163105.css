@@ -1,0 +1,55 @@
+*{
+margin: 0;
+   padding: 0;
+}
+nav a
+{
+   text-decoration: none;
+   color:aliceblue;
+   
+}
+
+#container{
+   background-color:grey;
+   height: 40px;
+   padding-top: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+/* you have to target img not  div with id image  */
+/* #image{} */
+
+img{
+   height: 200px;
+
+}
+/* when applying flex we target div with id image becaus eit is a container you can name them as well */
+#image{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+#box-container{
+   background-color:lightblue;
+   height: 100px;
+   display: flex;
+}
+
+.box{
+   width: 70px;
+   height: 60px;
+}
+
+#box1{
+   background-color:palevioletred;
+}
+#box2 {
+   background-color: turquoise;
+}
+#box3 {
+   background-color: purple;
+}

@@ -1,0 +1,91 @@
+*{
+margin: 0;
+   padding: 0;
+}
+nav a
+{
+   text-decoration: none;
+   color:aliceblue;
+   
+}
+
+#container{
+   background-color:grey;
+   height: 40px;
+   padding-top: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+/* you have to target img not  div with id image  */
+/* #image{} */
+
+img{
+   
+   height: 150px;
+
+}
+/* when applying flex we target div with id image becaus eit is a container you can name them as well */
+/* also we have to give border */
+#image-container{
+   margin-top: 9px;
+   display: flex;
+   height: 160px;
+   justify-content: center;
+   align-items: center;
+   border:2px solid black;
+   
+   
+}
+
+/* when you increase the width only box-3 grow , decrease the width box-3 shrinks  */
+#box-container{
+   background-color:lightblue;
+   height: 100px;
+   width: 230px;
+   margin-top: 20px;
+   border:solid;
+   display: flex;
+   justify-content: space-around;
+}
+
+.box{
+   width: 80px;
+   height: 80px;
+   margin-top: 7px;
+   border:solid;
+   flex-shrink: 0;  
+}
+/* above we apply shrink property 0 because bydefailt is 1 so its apply to all boxes and we want only for box-3 so we set to 0 */
+
+#box1{
+   background-color:palevioletred;
+   text-align: center;
+}
+#box2 {
+   background-color: greenyellow;
+   text-align: center;
+}
+#box3 {
+   background-color: purple;
+   text-align: center;
+}
+
+#box3 {
+
+   flex-shrink: 1;
+   flex-grow: 1;
+}
+/* here you see when you define box container-width then you see it shrinks but all box shrinks too as bydefault shrink -1 property is there you have to specify to the box shrink-0*/
+
+
+#mediabox{
+   margin-top: 7px;
+   width: 50px;
+   height: 50px;
+   background-color:green;
+   border:2px black solid;
+   /* @media screen { min-width: 400px; */  
+}
+/* you cannot define media queries inside as it should apply o */
